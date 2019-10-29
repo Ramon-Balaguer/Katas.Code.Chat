@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Kata.Code.Chat.Api.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,9 +20,10 @@ namespace Kata.Code.Chat.Api.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType(typeof(List<V1.ChatMessage>), StatusCodes.Status200OK)]
         public IActionResult Get()
         {
-            return Ok();
+            return Ok(chatRoom.ShowMessages().Select(message => message.ToDto()).ToList());
         }
     }
 }

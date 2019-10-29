@@ -6,7 +6,7 @@ namespace Kata.Code.Chat
     {
         protected bool Equals(ChatMessage other)
         {
-            return string.Equals(text, other.text) && string.Equals(user, other.user) && creationTime.Equals(other.creationTime);
+            return string.Equals(Text, other.Text) && string.Equals(User, other.User) && CreationTime.Equals(other.CreationTime);
         }
 
         public override bool Equals(object obj)
@@ -21,9 +21,9 @@ namespace Kata.Code.Chat
         {
             unchecked
             {
-                var hashCode = (text != null ? text.GetHashCode() : 0);
-                hashCode = (hashCode * 397) ^ (user != null ? user.GetHashCode() : 0);
-                hashCode = (hashCode * 397) ^ creationTime.GetHashCode();
+                var hashCode = (Text != null ? Text.GetHashCode() : 0);
+                hashCode = (hashCode * 397) ^ (User != null ? User.GetHashCode() : 0);
+                hashCode = (hashCode * 397) ^ CreationTime.GetHashCode();
                 return hashCode;
             }
         }
@@ -38,15 +38,15 @@ namespace Kata.Code.Chat
             return !Equals(left, right);
         }
 
-        private readonly string text;
-        private readonly string user;
-        private readonly DateTime creationTime;
+        public string Text { get; }
+        public string User { get; }
+        public DateTime CreationTime { get; }
 
         public ChatMessage(string text, string user, DateTime creationTime)
         {
-            this.text = text;
-            this.user = user;
-            this.creationTime = creationTime;
+            this.Text = text;
+            this.User = user;
+            this.CreationTime = creationTime;
         }
     }
 }
