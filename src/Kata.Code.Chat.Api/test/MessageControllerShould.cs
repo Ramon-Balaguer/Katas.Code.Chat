@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
 using FluentAssertions;
 using Kata.Code.Chat.Api.Controllers;
 using Kata.Code.Chat.Api.Models;
-using Microsoft.CodeAnalysis;
+using Microsoft.AspNetCore.Mvc;
 using NSubstitute;
 using Xunit;
 
