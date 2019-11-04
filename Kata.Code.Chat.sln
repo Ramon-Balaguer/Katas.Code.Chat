@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Code.Chat.Api.UnitTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Code.Chat.Api", "src\Kata.Code.Chat.Api\src\Kata.Code.Chat.Api.csproj", "{D0019B4D-BA6B-4C22-95C1-E2F578356D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,18 +75,6 @@ Global
 		{D0019B4D-BA6B-4C22-95C1-E2F578356D46}.Release|x64.Build.0 = Release|Any CPU
 		{D0019B4D-BA6B-4C22-95C1-E2F578356D46}.Release|x86.ActiveCfg = Release|Any CPU
 		{D0019B4D-BA6B-4C22-95C1-E2F578356D46}.Release|x86.Build.0 = Release|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Debug|x64.Build.0 = Debug|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Debug|x86.Build.0 = Debug|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Release|x64.ActiveCfg = Release|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Release|x64.Build.0 = Release|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Release|x86.ActiveCfg = Release|Any CPU
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,7 +86,6 @@ Global
 		{FF3CFA0E-5203-485F-A9A6-79F7477F3B8B} = {E48F1281-5245-452B-8CAC-E4956624749D}
 		{8F55C94E-A3AC-4A0F-86BA-959BD7F0C952} = {FF3CFA0E-5203-485F-A9A6-79F7477F3B8B}
 		{D0019B4D-BA6B-4C22-95C1-E2F578356D46} = {FF3CFA0E-5203-485F-A9A6-79F7477F3B8B}
-		{0789FE7B-66FA-4C7A-BC46-B7C6F1A3034A} = {FF3CFA0E-5203-485F-A9A6-79F7477F3B8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B63E093-1107-4776-B463-098A0FCC8BDE}
